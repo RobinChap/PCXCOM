@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 68072259d4e8e7c4fbc652f9ed6a32a2
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: //RootNode
+    100004: Head
+    100006: LCalf
+    100008: LCollarbone
+    100010: LFoot
+    100012: LForearm
+    100014: LIKTarget
+    100016: LPalm
+    100018: LPlatform
+    100020: LThigh
+    100022: LUpperarm
+    100024: Neck
+    100026: PalmBone001
+    100028: PalmBone001 1
+    100030: PalmBone002
+    100032: PalmBone002 1
+    100034: Pelvis
+    100036: RArmCollarbone
+    100038: RArmForearm
+    100040: RArmIKTarget
+    100042: RArmPalm
+    100044: RArmUpperarm
+    100046: RCalf
+    100048: RFoot
+    100050: Ribcage
+    100052: RPlatform
+    100054: RThigh
+    100056: Spine1
+    100058: Spine2
+    400000: Base Human
+    400002: //RootNode
+    400004: Head
+    400006: LCalf
+    400008: LCollarbone
+    400010: LFoot
+    400012: LForearm
+    400014: LIKTarget
+    400016: LPalm
+    400018: LPlatform
+    400020: LThigh
+    400022: LUpperarm
+    400024: Neck
+    400026: PalmBone001
+    400028: PalmBone001 1
+    400030: PalmBone002
+    400032: PalmBone002 1
+    400034: Pelvis
+    400036: RArmCollarbone
+    400038: RArmForearm
+    400040: RArmIKTarget
+    400042: RArmPalm
+    400044: RArmUpperarm
+    400046: RCalf
+    400048: RFoot
+    400050: Ribcage
+    400052: RPlatform
+    400054: RThigh
+    400056: Spine1
+    400058: Spine2
+    7400000: Run_Pistol_Doublet_Forward
+    7400002: Run_Pistol_Doublet_Back
+    7400004: Run_Pistol_Doublet_Right
+    7400006: Run_Pistol_Doublet_Left
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Pistol_Doublet_Forward
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 735
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 0
+      - path: LIKTarget
+        weight: 0
+      - path: LPlatform
+        weight: 0
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone001
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone002
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone001
+          1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone002
+          1
+        weight: 1
+      - path: RArmIKTarget
+        weight: 0
+      - path: RPlatform
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Pistol_Doublet_Back
+      takeName: Take 001
+      firstFrame: 770
+      lastFrame: 805
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 0
+      - path: LIKTarget
+        weight: 0
+      - path: LPlatform
+        weight: 0
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone001
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone002
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone001
+          1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone002
+          1
+        weight: 1
+      - path: RArmIKTarget
+        weight: 0
+      - path: RPlatform
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Pistol_Doublet_Right
+      takeName: Take 001
+      firstFrame: 840
+      lastFrame: 875
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 0
+      - path: LIKTarget
+        weight: 0
+      - path: LPlatform
+        weight: 0
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone001
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone002
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone001
+          1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone002
+          1
+        weight: 1
+      - path: RArmIKTarget
+        weight: 0
+      - path: RPlatform
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Pistol_Doublet_Left
+      takeName: Take 001
+      firstFrame: 910
+      lastFrame: 945
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base Human
+        weight: 0
+      - path: LIKTarget
+        weight: 0
+      - path: LPlatform
+        weight: 0
+      - path: Pelvis
+        weight: 1
+      - path: Pelvis/LThigh
+        weight: 1
+      - path: Pelvis/LThigh/LCalf
+        weight: 1
+      - path: Pelvis/LThigh/LCalf/LFoot
+        weight: 1
+      - path: Pelvis/RThigh
+        weight: 1
+      - path: Pelvis/RThigh/RCalf
+        weight: 1
+      - path: Pelvis/RThigh/RCalf/RFoot
+        weight: 1
+      - path: Pelvis/Spine1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone001
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/LCollarbone/LUpperarm/LForearm/LPalm/PalmBone002
+        weight: 0
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/Neck/Head
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone001
+          1
+        weight: 1
+      - path: Pelvis/Spine1/Spine2/Ribcage/RArmCollarbone/RArmUpperarm/RArmForearm/RArmPalm/PalmBone002
+          1
+        weight: 1
+      - path: RArmIKTarget
+        weight: 0
+      - path: RPlatform
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RArmPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: space_man_animation_pistol_run_mecnime(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base Human
+      parentName: 
+      position: {x: 1.4901161e-10, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: -0.50000006, z: -0.49999994, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LIKTarget
+      parentName: 
+      position: {x: -0.06036888, y: 0.1487486, z: 0.12876351}
+      rotation: {x: 0.8580527, y: -0.23028024, z: 0.45901266, w: -0.004897454}
+      scale: {x: 0.9999999, y: 0.9999989, z: 1.0000032}
+    - name: LPlatform
+      parentName: 
+      position: {x: -0.04136295, y: 0.039539583, z: -0.05008838}
+      rotation: {x: 0.7752506, y: 0.04392588, z: -0.6277855, w: -0.05424393}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Pelvis
+      parentName: 
+      position: {x: 0.0000000063257244, y: 0.123387665, z: 0.009281065}
+      rotation: {x: -0.43519047, y: 0.50256914, z: 0.52442765, w: -0.5319861}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: LThigh
+      parentName: 
+      position: {x: -0.0033422373, y: 0.009113309, z: 0.030992959}
+      rotation: {x: -0.047186263, y: 0.9924672, z: -0.08330748, w: 0.07643485}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: LCalf
+      parentName: 
+      position: {x: -0.074634336, y: 0.000000047683713, z: 0.00000006198883}
+      rotation: {x: -0.022776017, y: 0.13979858, z: 0.28970215, w: 0.94657826}
+      scale: {x: 1.0000008, y: 1.0000015, z: 0.9999989}
+    - name: LFoot
+      parentName: 
+      position: {x: -0.032773018, y: -0.0000000023841857, z: -0.0000000047683715}
+      rotation: {x: -0.07112438, y: -0.041476294, z: -0.1516285, w: 0.9850025}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.9999998}
+    - name: RThigh
+      parentName: 
+      position: {x: -0.0033425044, y: 0.009113307, z: -0.027885921}
+      rotation: {x: -0.08303503, y: 0.99284625, z: -0.03321828, w: -0.07910782}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1}
+    - name: RCalf
+      parentName: 
+      position: {x: -0.07555952, y: 0.00000025749205, z: 0.0000000333786}
+      rotation: {x: -0.029459553, y: -0.0701972, z: 0.32951534, w: 0.94107604}
+      scale: {x: 0.99999964, y: 1.0000013, z: 1.0000006}
+    - name: RFoot
+      parentName: 
+      position: {x: -0.032763716, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0.103085674, y: 0.033597138, z: -0.7339382, w: 0.6705067}
+      scale: {x: 0.99999857, y: 1.0000014, z: 1.0000001}
+    - name: Spine1
+      parentName: 
+      position: {x: -0.008834362, y: 0.010279387, z: -0.000000003390014}
+      rotation: {x: 0.02098047, y: 0.012895187, z: -0.0006235869, w: 0.99969655}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.99999976}
+    - name: Spine2
+      parentName: 
+      position: {x: -0.06757321, y: 0, z: 8.9406965e-10}
+      rotation: {x: 0.08399137, y: 0.0028234879, z: -0.018889481, w: 0.9962834}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.9999997}
+    - name: Ribcage
+      parentName: 
+      position: {x: -0.05967306, y: -2.9802322e-10, z: -2.9802322e-10}
+      rotation: {x: 0.019188348, y: -0.020252412, z: -0.073970445, w: 0.9968701}
+      scale: {x: 0.99999964, y: 0.9999998, z: 1.0000001}
+    - name: LCollarbone
+      parentName: 
+      position: {x: 0.011719895, y: 0.0074414155, z: 0.038590908}
+      rotation: {x: -0.09200306, y: 0.80010986, z: 0.049121268, w: 0.59071714}
+      scale: {x: 0.99999994, y: 1.0000007, z: 1.0000005}
+    - name: LUpperarm
+      parentName: 
+      position: {x: -0.032725368, y: -0.000000014305114, z: 0.000000057220458}
+      rotation: {x: 0.2722593, y: -0.10646671, z: -0.013020315, w: 0.95622706}
+      scale: {x: 1.0000029, y: 1.000002, z: 0.9999996}
+    - name: LForearm
+      parentName: 
+      position: {x: -0.05799161, y: -0.000000038146972, z: 0.000000057220458}
+      rotation: {x: -0.19201918, y: -0.01052917, z: -0.023730617, w: 0.98104775}
+      scale: {x: 1.0000069, y: 1.0000069, z: 0.9999993}
+    - name: LPalm
+      parentName: 
+      position: {x: -0.060218476, y: 0.0000000047683715, z: 0}
+      rotation: {x: -0.7764018, y: 0.18989341, z: 0.042651087, w: 0.5994344}
+      scale: {x: 0.99998283, y: 1.0000175, z: 0.9999993}
+    - name: PalmBone001
+      parentName: 
+      position: {x: -0.039976772, y: 0.0004234123, z: 0.0006247425}
+      rotation: {x: 0, y: 0, z: 0.2811778, w: 0.9596557}
+      scale: {x: 0.99998206, y: 1.000027, z: 1.0000099}
+    - name: PalmBone002
+      parentName: 
+      position: {x: -0.00989378, y: 0.00077279564, z: 0.016596993}
+      rotation: {x: 0.31108257, y: 0.3836937, z: 0.013349514, w: 0.86938405}
+      scale: {x: 0.9999851, y: 1.0000236, z: 1.0000101}
+    - name: Neck
+      parentName: 
+      position: {x: -0.00015415192, y: -0.0070814844, z: 0}
+      rotation: {x: -0.06623547, y: 0.07257079, z: 0.23185433, w: 0.96777576}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Head
+      parentName: 
+      position: {x: -0.052608296, y: 0, z: 0.0000000023841857}
+      rotation: {x: -0.07720251, y: -0.05087494, z: -0.14993937, w: 0.9843626}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: RArmCollarbone
+      parentName: 
+      position: {x: 0.011719875, y: 0.007441404, z: -0.038590916}
+      rotation: {x: -0.06086831, y: 0.781865, z: -0.11580729, w: -0.6095661}
+      scale: {x: 1, y: 1.0000006, z: 1.0000004}
+    - name: RArmUpperarm
+      parentName: 
+      position: {x: -0.032725383, y: 0.0000000023841857, z: 0}
+      rotation: {x: 0.19089441, y: 0.13216418, z: -0.042634044, w: 0.9717378}
+      scale: {x: 1.0000012, y: 1.0000001, z: 0.9999984}
+    - name: RArmForearm
+      parentName: 
+      position: {x: -0.057991732, y: 0.000000009536743, z: 0}
+      rotation: {x: 0.2613648, y: 0.02601851, z: -0.013589676, w: 0.9647936}
+      scale: {x: 1.0000025, y: 1.0000004, z: 0.9999985}
+    - name: RArmPalm
+      parentName: 
+      position: {x: -0.060218476, y: 0, z: 0.000000009536743}
+      rotation: {x: 0.7315702, y: -0.04223375, z: 0.13166593, w: 0.6675968}
+      scale: {x: 0.9999958, y: 1.0000033, z: 1}
+    - name: PalmBone001 1
+      parentName: 
+      position: {x: -0.03997675, y: 0.00042345046, z: -0.0006248474}
+      rotation: {x: 0.17989103, y: -0.066853516, z: 0.36990926, w: 0.9090308}
+      scale: {x: 0.99999547, y: 1.0000023, z: 1.0000037}
+    - name: PalmBone002 1
+      parentName: 
+      position: {x: -0.009893798, y: 0.00077279087, z: -0.016597042}
+      rotation: {x: -0.6950612, y: -0.36918005, z: 0.2508037, w: 0.5636431}
+      scale: {x: 0.99999976, y: 1.0000013, z: 1.0000005}
+    - name: RArmIKTarget
+      parentName: 
+      position: {x: 0.09442181, y: 0.18571433, z: 0.16609304}
+      rotation: {x: -0.38331416, y: -0.59419715, z: -0.38331416, w: 0.59419715}
+      scale: {x: 0.99999744, y: 0.9999989, z: 1.0000037}
+    - name: RPlatform
+      parentName: 
+      position: {x: 0.04137334, y: 0.026926879, z: 0.07264522}
+      rotation: {x: 0.31771314, y: -0.6708374, z: -0.39234295, w: 0.54323345}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
